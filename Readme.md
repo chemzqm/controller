@@ -21,15 +21,15 @@
 
 ## API
 
-### controller.define(id, fn, [deps])
+### .define(id, fn, [deps])
 
 Bind the controller to element with `id`, use `fn` as constructor and optional dependency constructors.
 
-### controller.get(id)
+### .get(id)
 
 Get the controller by id.
 
-### controller.remove([id])
+### .remove([id])
 
 Remove the controller by id, all the events would be remoed.
 With empty arguments, all the controllers would be removed.
