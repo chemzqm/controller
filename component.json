@@ -1,0 +1,20 @@
+{
+  "name": "controller",
+  "repo": "chemzqm/controller",
+  "description": "Identified controller with emitter and dependency injection support",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/emitter": "*",
+    "component/event": "0.1.2"
+  },
+  "development": {
+    "component/domify": "*",
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
