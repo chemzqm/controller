@@ -1,4 +1,3 @@
-
 # controller
 
   Identified controller with emitter and dependency injection support.
@@ -23,7 +22,7 @@
 
 ### .define(id, fn, [deps])
 
-Bind the controller to element with `id`, use `fn` as constructor and optional dependency constructors.
+Bind the controller to element with `id`, use `fn` as constructor and optional dependency constructors as array.
 
 ### .get(id)
 
@@ -31,14 +30,15 @@ Get the controller by id.
 
 ### .remove([id])
 
-Remove the controller by id, all the events would be remoed.
+Remove the controller by id, all the event listeners would be removed.
+
 With empty arguments, all the controllers would be removed.
 
 ## License
 
   The MIT License (MIT)
 
-  Copyright (c) 2014 <copyright holders>
+  Copyright (c) 2014 <copyright chemzqm@gmail.com>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
